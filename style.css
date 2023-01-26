@@ -90,3 +90,44 @@ margin-left: 80px;
     width: 336px;
 }
 
+.informacion {
+    color: #495057;
+    font-size: 18px;
+}
+
+
+@media screen and (max-width:480px) { /*para celus*/
+    .botones{
+        display: block;
+        
+        
+    }
+
+    main{
+
+        display: block;
+        position: static;
+    }
+
+    .logo{
+        text-align: center;
+
+
+    }
+
+    h6{
+
+       text-align:center ; 
+
+    }
+
+    .text-area{
+        position: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    
+    
+ }
+
